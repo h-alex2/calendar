@@ -1,0 +1,72 @@
+body {
+	background-image: url("img/bg.jpg");
+	background-position: 0 15%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.calendar {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-family: 'Fredoka', sans-serif;
+	color: white;
+}
+
+h1 {
+	font-size: 80px;
+	margin: 10px;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 10px;
+}
+
+p {
+	font-weight: 600;
+}
+
+td {
+	width: 60px;
+	height: 40px;
+}
+
+thead > tr > td {
+	font-weight: 600;
+}
+
+
+
+
+table {
+	border-collapse: collapse;
+}
+
+.button-left {
+	left: -250px;
+}
+.button-right {
+	right: -250px;
+}
+
+.btn {
+	position: absolute;
+	top: 65%;
+	pointer-events: none;
+}
+
+button {
+	pointer-events: all;
+	position: relative;
+	border: none;
+	background: none;
+	font-size: 30px;
+	color: white;
+}
